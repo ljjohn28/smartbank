@@ -8,7 +8,7 @@ const List = () => {
   console.log(lista)
   return <Box>
     {
-      lista.cargos.map( (cargo, i) => {
+      lista.cargos.map((cargo, i) => {
         return <Card key={i} cargo={cargo}/>
       })
     }
